@@ -8,4 +8,4 @@ install:
   - pip install pandas
   - pip install numpy
 script:
-  jupyter nbconvert --to html water_resource_challenge.ipynb
+  - jupyter nbconvert --to html water_resource_challenge.ipynb
